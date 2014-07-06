@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="classes\main\Main.cs">
+    <Files>
+      <File FileName="classes\managers\ArgumentsManager.cs" Line="23" Column="5" />
+      <File FileName="classes\main\CommandLineArguments.cs" Line="6" Column="2" />
+      <File FileName="classes\main\Main.cs" Line="49" Column="44" />
+      <File FileName="classes\managers\ArduinoManager.cs" Line="44" Column="25" />
+      <File FileName="classes\main\Globals.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
