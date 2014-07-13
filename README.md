@@ -6,6 +6,15 @@ You can also turn on / off the seven LEDs from the pc.
 
 ![](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_01.jpg)
 
+## Demo videos ##
+
+**IR Control**  
+[![Control your tv from the windows command line ](http://img.youtube.com/vi/n77kAdKRz4Q/0.jpg)](https://www.youtube.com/watch?v=n77kAdKRz4Q)
+
+**Change LEDs**  
+[![Control Arduino LEDs from the windows command line ](http://img.youtube.com/vi/wypyrgvDYOo/0.jpg)](https://www.youtube.com/watch?v=wypyrgvDYOo)
+
+
 ## Setup ##
 
 1. Connect the Arduino to the IR LED and the 7 LEDs as described in the schematics
