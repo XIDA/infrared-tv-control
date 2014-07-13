@@ -1,104 +1,29 @@
 infrared-tv-control
 ===================
 
-Control your tv from a pc with an arduino and an infrared led
+Control your tv (currently only Samsung TVs are supported) from a pc with an Arduino and an infrared led.   
+You can also turn on / off one of 7 LEDs from the pc.
 
-The windows command line tool allows you to do the following:
+![](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_01.jpg)
 
-**send samsung tv command**
+[more information about the arduino setup](https://github.com/XIDA/infrared-tv-control/tree/master/arduino)
 
-ircontrol.exe -c 0xE0E040BF
+[more information about the windows command line tool](https://github.com/XIDA/infrared-tv-control/tree/master/windows)
 
-**Available commands**
+## Setup ##
 
-0xE0E040BF TV_Power                 
-0xE0E0807F TV_Source                
+1. Connect the Arduino to the IR LED and the 7 LEDs as described in the schematics
+	- [Schematic top](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_02.jpg)
+	- [Schematic bottom](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_03.jpg)
+	
+2. Download the latest release source code zip: [Latest release](https://github.com/XIDA/infrared-tv-control/releases/latest) and unzip it
 
-0xE0E0C837 channel switch
+3. Do the following with the files from the release:
+	1. Install the Arduino libraries from the release found here \arduino\libraries   
+([How to install libraries](http://arduino.cc/en/Guide/Libraries) (See section "Manual installation")
+	2. Upload the Arduino sketch \arduino\arduino.ino to your Arduino    
+   
 
-0xE0E0D827 TV
-0xE0E09768 HDMI1
-
-0xE0E022DD favourite channel list
-
-0xE0E048B7 TV_Chan_up               
-0xE0E008F7 TV_Chan_down             
-		  
-0xE0E0E01F Vol+
-
-0xE0E0D02F Vol-
-
-0xE0E0F00F Mute
-
-0xE0E058A7 TV Settings Menu
-
-0xE0E01AE5 Return
-
-0xE0E020DF TV_1                     
-0xE0E0A05F TV_2                     
-0xE0E0609F TV_3                     
-0xE0E010EF TV_4                     
-0xE0E0906F TV_5                     
-0xE0E050AF TV_6                     
-0xE0E030CF TV_7                     
-0xE0E0B04F TV_8                     
-0xE0E0708F TV_9                     
-0xE0E08877 TV_0                     
-		  
-0xE0E0F807 TV_Info                  
-0xE0E0B44B TV_Exit                  
-0xE0E006F9 TV_Arrow_up              
-0xE0E08679 TV_Arrow_down            
-0xE0E0A659 TV_Arrow_left            
-0xE0E046B9 TV_Arrow_right           
-0xE0E016E9 TV_Enter                 
-0xE0E036C9 TV_Red                   
-0xE0E028D7 TV_Green                 
-0xE0E0A857 TV_Yellow                
-0xE0E06897 TV_Blue                  
-0xE0E0C03F TV_Sleep  
-
-
-## Optional command for the LEDs I attached to the arduino ##
-
-**turn LED on**
-
-ircontrol.exe -s ledon -c 0 
-
--c LED index (-1 for all)
-
-
-**turn LED off**
-
-ircontrol.exe -s ledoff -c 0 
-
--c LED index (-1 for all)
-
-
-**turn LED on for a certain time**
-
-ircontrol.exe -s ledonformillis -c 1 -l 5000 
-
--c LED index (-1 for all)
-
--l = milliseconds
-
-
-**blink LED**
-
-ircontrol.exe -s ledblink -c 5 -l 15 -m 90
-
--c LED index (-1 for all)
-
--l = blink interval in milliseconds
-
--m = repetitions
-
-
-**LED Effects**
-
-ircontrol.exe -s ledeffect -c 0 -m 5
-
--c effect index (0 = Knight Rider, 1 = Landing Zone)
-
--m = repetitions 
+4. Download the latest release of the command line utlity zip (commandlinetool.zip): [Latest release](https://github.com/XIDA/infrared-tv-control/releases/latest) and unzip it
+5. Open a command line window and have a look at the available commands:  
+[windows command line tool](https://github.com/XIDA/infrared-tv-control/tree/master/windows)
