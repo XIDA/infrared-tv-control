@@ -57,7 +57,7 @@ ircontrol.exe -c 0xE0E040BF
 0xE0E0C03F TV_Sleep  
 
 
-## Optional command for the LEDs I attached to the arduino ##
+## Optional command for the LEDs attached to the Arduino ##
 
 **turn LED on**
 
