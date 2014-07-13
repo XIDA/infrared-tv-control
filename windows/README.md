@@ -1,6 +1,8 @@
 infrared-tv-control
 ===================
 
+Created with Xamarin Studio: [http://monodevelop.com/](http://monodevelop.com/)
+
 The windows command line tool allows you to do the following:
 
 **send samsung tv command**
