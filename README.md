@@ -2,7 +2,11 @@ infrared-tv-control
 ===================
 
 Control your tv (currently only Samsung TVs are supported) from a pc with an Arduino and an infrared led.   
+         
 You can also turn on / off the seven LEDs from the pc.
+You can use the LEDs for different purposes.   
+For example when a download finishes or an emails arrives.   
+
 
 ![](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_01.jpg)
 
