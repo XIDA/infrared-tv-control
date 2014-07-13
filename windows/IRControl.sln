@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRControl", "dmxcontrol\IRControl.csproj", "{0F91D390-5DEB-4064-8581-C16C1FDE61C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRControl", "ircontrol\IRControl.csproj", "{0F91D390-5DEB-4064-8581-C16C1FDE61C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandMessenger", "CommandMessenger\CommandMessenger.csproj", "{3CF8F8FC-6F5C-46F8-94DC-C2E4C505ECA4}"
 EndProject
@@ -21,6 +21,6 @@ Global
 		{3CF8F8FC-6F5C-46F8-94DC-C2E4C505ECA4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = dmxcontrol\IRControl.csproj
+		StartupItem = ircontrol\IRControl.csproj
 	EndGlobalSection
 EndGlobal
