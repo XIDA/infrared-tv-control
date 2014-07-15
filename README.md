@@ -21,9 +21,9 @@ For example when a download finishes or an emails arrives.
 
 ## Setup ##
 
-1. Connect the Arduino to the IR LED and the 7 LEDs as described in the schematics
-	- [Schematic top](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_02.jpg)
-	- [Schematic bottom](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_03.jpg)
+1. Connect the Arduino to the IR LED and the 7 LEDs as described in the layout files
+	- [pcb layout top](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_02.jpg)
+	- [pcb layout bottom](https://github.com/XIDA/infrared-tv-control/raw/master/assets/images/projectoverview/overview_03.jpg)
 	
 2. Download the latest release source code zip: [Latest release](https://github.com/XIDA/infrared-tv-control/releases/latest) and unzip it
 
